@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Multi URL Opener",
+  "description": "Anonymous Projects multiple URL's Opener!",
+  "version": "1.0",
+  "permissions": [
+    "tabs",
+    "storage"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": "icons/icon16.png"
+  }
+}
